@@ -2802,12 +2802,13 @@ img {
 
 @media (max-width: 440px) {
   .wpo-site-header .navbar-header .navbar-brand img {
-    max-width: 170px;
+    max-width: 180px;
   }
 }
 @media (max-width: 370px) {
   .wpo-site-header .navbar-header .navbar-brand img {
-    max-width: 140px;
+    max-width: 170px;
+    height: 140px;
   }
 }
 @media (max-width: 1500px) {
