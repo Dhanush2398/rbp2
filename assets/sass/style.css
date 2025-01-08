@@ -1824,11 +1824,11 @@ img {
 }
 
 .wpo-site-header {
-  padding: 0 255px;
+  padding: 0 0px;
 }
 @media (max-width: 1700px) {
   .wpo-site-header {
-    padding: 0 100px;
+    padding: 0 0px;
     
   }
 }
