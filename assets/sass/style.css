@@ -1860,14 +1860,17 @@ img {
 @media screen and (min-width: 992px) {
   .wpo-site-header #navbar {
     /*** hover effect ***/
+    
   }
   .wpo-site-header #navbar li {
     position: relative;
+    
   }
   .wpo-site-header #navbar > ul > li > a:hover:before,
   .wpo-site-header #navbar > ul > li > a.active:before {
     opacity: 1;
     visibility: visible;
+  
   }
   .wpo-site-header #navbar > ul > li > .sub-menu > .menu-item-has-children > a {
     position: relative;
@@ -2502,12 +2505,13 @@ img {
     position: relative;
     font-weight: 500;
     text-transform: capitalize;
-    left: 650px;
+    
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1870px) {
   .wpo-site-header #navbar > ul > li > a {
     padding: 35px 18px;
+    
   }
 }
 @media screen and (min-width: 992px) {
@@ -2780,7 +2784,7 @@ img {
   display: block;
 }
 .wpo-site-header .navbar-header .navbar-brand img {
-  width: 160px;
+  width: 150px;
   height: 110px;
   position: relative;
   right: 85px;
@@ -3042,6 +3046,8 @@ img {
     color: #fff;
   }
 }
+
+
 .header-s2 .wpo-site-header .navigation,
 .header-s3 .wpo-site-header .navigation {
   border-radius: 0;
