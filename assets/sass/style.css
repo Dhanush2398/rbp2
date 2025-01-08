@@ -2502,6 +2502,7 @@ img {
     position: relative;
     font-weight: 500;
     text-transform: capitalize;
+    left: 650px;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1870px) {
@@ -2655,6 +2656,7 @@ img {
     outline: 0;
     position: relative;
     z-index: 20;
+    left: 260px;
   
   }
   .wpo-site-header .mobail-menu button:focus {
@@ -2775,8 +2777,11 @@ img {
   display: block;
 }
 .wpo-site-header .navbar-header .navbar-brand img {
-  width: 200px;
-  height: 150px;
+  width: 170px;
+  height: 130px;
+  position: relative;
+  right: 85px;
+ 
 }
 @media (max-width: 991px) {
   .wpo-site-header .navbar-collapse.collapse {
