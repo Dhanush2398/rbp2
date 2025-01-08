@@ -1464,10 +1464,12 @@ img {
 .topbar {
   padding: 0 255px;
   background: #EBEBEB;
+  
 }
 @media (max-width: 1700px) {
   .topbar {
     padding: 0 100px;
+    
   }
 }
 @media (max-width: 1500px) {
@@ -1912,6 +1914,7 @@ img {
     display: block;
     height: 2px;
     margin-bottom: 5px;
+    width: 100%;
   }
   .wpo-site-header .navbar-header button span:last-child {
     margin: 0;
@@ -2805,6 +2808,7 @@ img {
     max-width: 180px;
   }
 }
+
 @media (max-width: 370px) {
   .wpo-site-header .navbar-header .navbar-brand img {
     max-width: 170px;
@@ -2817,6 +2821,7 @@ img {
   }
   .wpo-site-header {
     padding: 0 10px;
+    
   }
 }
 @media (max-width: 991px) {
@@ -2828,6 +2833,7 @@ img {
   .wpo-site-header #navbar > ul > li > a {
     padding: 30px 10px;
     font-size: 18px;
+  
   }
 }
 @media (max-width: 1200px) {
@@ -16407,7 +16413,8 @@ img {
   color: white;
 }
 .logo img {
-  height: 94px;
+  height: 80px;
+  width: 90px;
 }
 
 .footerlogo img{
