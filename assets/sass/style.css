@@ -2656,7 +2656,7 @@ img {
     outline: 0;
     position: relative;
     z-index: 20;
-    left: 260px;
+    left: 300px;
   
   }
   .wpo-site-header .mobail-menu button:focus {
@@ -2765,6 +2765,9 @@ img {
     right: 10px;
   }
 }
+
+
+
 @media (max-width: 767px) {
   .wpo-site-header .navbar-header .navbar-brand {
     font-size: 24px;
