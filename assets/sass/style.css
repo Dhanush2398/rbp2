@@ -16421,7 +16421,7 @@ img {
 }
 .error-404-section .error-message p {
   margin-bottom: 1.8em;
-}/*# sourceMappingURL=style.css.map */
+}
 
 .credits a{
   color: #F74F22;
@@ -16442,7 +16442,7 @@ img {
 
 @media (max-width:320px) {
   .wpo-site-header {
-    /* class for show hide navigation */
+   
   }
   .wpo-site-header .container {
     width: 100%;
@@ -16622,4 +16622,27 @@ font-weight: 600;
   .about-section2 p {
       font-size: 1em;
   }
+}
+.video-container{
+  height: 550px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {  
+  .video-container{
+    height: 400px;
+  }
+}
+
+
+.slide-inner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); 
+  z-index: 1;
 }
